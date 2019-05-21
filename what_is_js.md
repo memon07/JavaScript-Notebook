@@ -13,3 +13,25 @@ const foo = function() {
 // Invoke it using the variable
 foo();
 ```
+
+#### Prototype-based programming
+Prototype-based programming is a style of object-oriented programming in which classes are not explicitly defined, but rather derived by adding properties and methods to an instance of another class.
+<br/>
+
+[[Prototype]]<br/>
+
+<img src="https://javascript.info/article/prototype-inheritance/object-prototype-empty.png" alt="prototypr"/><br/>
+
+In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”:<br/>
+One way of using it by ```__proto__```.
+
+```javascript
+let animal = {
+  eats: true
+};
+let rabbit = {
+  jumps: true
+};
+
+rabbit.__proto__ = animal;
+```
