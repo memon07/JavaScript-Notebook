@@ -2,3 +2,6 @@
 # JavaScript Notebook
 A collection of JavaScript knowledge
 
+
+
+* [What is JavaScript](what_is_js.md)
