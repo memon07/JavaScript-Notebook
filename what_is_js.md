@@ -49,3 +49,7 @@ rabbit.__proto__ = animal;
 	</body>
 </html>
 ```
+
+### What we can do with javascript
+Well you can pretty do anything with javascript nowadays.
+serverside programming, client side programming , Robotics and Iot, Machine Learning, Video games, desktop app
