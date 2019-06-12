@@ -45,7 +45,7 @@ rabbit.__proto__ = animal;
 		alert("Hello World!");
 	</script>
 </head>
-<body>
-</body>
+	<body>
+	</body>
 </html>
 ```
