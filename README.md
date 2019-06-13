@@ -5,3 +5,4 @@ A collection of JavaScript knowledge
 
 
 * [What is JavaScript](what_is_js.md)
+* [Let Vs Var](let%20vs%20var.md)
