@@ -38,7 +38,7 @@ this refers to the owner object and, in a function,
 this refers to the global object.
 ```
 
-#### 5. built-in methods and the values returned by them
+#### 5. Some built-in methods and the values returned by them
 
 ```
 CharAt()      It returns the character at the specified index.
@@ -71,5 +71,16 @@ valueOf()     Returns the primitive value of the specified object
 localeCompare()  Returns a number that indicates whether a reference string comes before, after, or is the same as the given string in the sort order
 toLocaleString() Return a string value of the current number in a format that depends on the browser’s locale settings
 
+
+```
+
+#### 6. different types of Error Name values in JavaScript
+```
+Eval Error        Thrown when coming across an error in eval() (Newer JS releases don’t have it)
+Range Error       Generated when a number outside the specified range is used
+Reference Error   It comes into play when an undeclared variable is used
+Syntax Error      When the incorrect syntax is used, we get this error
+Type Error        This error is thrown when a value outside the range of data types is tried to be used
+URI Error         Generated due to the use of illegal characters
 
 ```
