@@ -90,3 +90,35 @@ Type Error        This error is thrown when a value outside the range of data ty
 URI Error         Generated due to the use of illegal characters
 
 ```
+
+#### 7. event bubbling in JavaScript
+```
+There are two ways for accomplishing event propagation and the order in which an event is 
+received in the HTML DOM API.
+
+These are Event Bubbling and Event Capturing. In the former, the event is directed towards 
+its intended target, whereas the event goes down to the element in the latter.
+
+Event Capturing – Also known as trickling, Event Capturing is rarely used. 
+                  The process starts with the outermost element capturing the event and then propagating the 
+                  same to the innermost element.
+
+Event Bubbling –  In this process, the event gets handled by the innermost element first and 
+                  then propagated to the outermost element.
+
+Event bubbling is a way of event propagation in the HTML DOM API, when an event occurs in an element 
+inside another element, and both elements have registered a handle for that event. With bubbling, the event 
+is first captured and handled by the innermost element and then propagated to outer elements. The execution 
+starts from that event and goes to its parent element. Then the execution passes to its parent element 
+and so on till the body element.
+```
+
+#### 8. call() vs apply() function
+```
+Function.prototype.call()
+Function.prototype.apply()
+Function.prototype.bind()
+
+the syntax of apply() function is almost identical to that of call(), the fundamental difference is that 
+call() accepts an argument list, while apply() accepts a single array of arguments
+```
