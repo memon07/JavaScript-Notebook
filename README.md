@@ -122,3 +122,22 @@ Function.prototype.bind()
 the syntax of apply() function is almost identical to that of call(), the fundamental difference is that 
 call() accepts an argument list, while apply() accepts a single array of arguments
 ```
+
+#### 9. Bindings
+```
+Implicit binding
+Explicit binding
+new Binding
+window binding
+
+In implicit 'this' refers to the object that is left side of the dot
+eg:
+var obj = {
+  name : 'shoyeb',
+  getName : function(){
+    console.log(this.name);
+  }
+}
+
+obj.getName(); // shoyeb 
+```
