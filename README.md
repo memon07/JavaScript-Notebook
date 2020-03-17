@@ -141,3 +141,53 @@ var obj = {
 
 obj.getName(); // shoyeb 
 ```
+
+#### 10. React LifeCycle 16.4 above
+```
+mounting
+-----------
+constructor
+render
+dom&ref
+componentDidMount
+
+
+updating
+--------------
+getDerivedStatesFromProps
+shouldComponentUpdate
+render
+getSnapShotbeforeUpdate
+dom&ref
+componentDidUpdate
+
+
+unmount
+-----------
+componentWillUnmount
+```
+
+#### 11. React Hook list
+```
+Hooks
+-------
+useState()
+useEffect()
+useReducer()
+useContext()
+useCallback()
+useMemo()
+useRef()
+useImperativeHandle()
+useLayoutEffect()
+useDebugValue()
+```
+
+#### 12. Five Important Rules for Hooks
+```
+* Never call Hooks from inside a loop, condition or nested function
+* Hooks should sit at the top-level of your component
+* Only call Hooks from React functional components
+* Never call a Hook from a regular function
+* Hooks can call other Hooks
+```
