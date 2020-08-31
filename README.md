@@ -7,6 +7,9 @@ A collection of JavaScript knowledge
 * [What is JavaScript](what_is_js.md)
 * [Let Vs Var](let%20vs%20var.md)
 
+## Useful resources
+[How browser works](https://lyamkin.com/blog/what-are-web-standards-and-how-does-web-browser-work/)
+
 
 #### 1. Data Types in JS
 ```
