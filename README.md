@@ -8,7 +8,8 @@ A collection of JavaScript knowledge
 * [Let Vs Var](let%20vs%20var.md)
 
 ## Useful resources
-[How browser works](https://lyamkin.com/blog/what-are-web-standards-and-how-does-web-browser-work/)
+[How browser works](https://lyamkin.com/blog/what-are-web-standards-and-how-does-web-browser-work/)<br/>
+[JavaScript under the hood with v8](https://www.freecodecamp.org/news/javascript-under-the-hood-v8/)<br/>
 
 
 #### 1. Data Types in JS
