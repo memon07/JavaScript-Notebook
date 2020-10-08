@@ -10,6 +10,7 @@ A collection of JavaScript knowledge
 ## Useful resources
 [How browser works](https://lyamkin.com/blog/what-are-web-standards-and-how-does-web-browser-work/)<br/>
 [JavaScript under the hood with v8](https://www.freecodecamp.org/news/javascript-under-the-hood-v8/)<br/>
+[React Patterns](https://reactpatterns.com/)</br>
 
 
 #### 1. Data Types in JS
