@@ -12,6 +12,7 @@ A collection of JavaScript knowledge
 [JavaScript under the hood with v8](https://www.freecodecamp.org/news/javascript-under-the-hood-v8/)<br/>
 [React Patterns](https://reactpatterns.com/)</br>
 [React Examples](https://reactjsexample.com/)</br>
+[WTFjs](https://wtfjs.com/)</br>
 
 
 #### 1. Data Types in JS
